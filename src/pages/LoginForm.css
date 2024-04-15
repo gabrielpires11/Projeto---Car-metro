@@ -1,41 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
-  }
-  
-body{
-    background-color:#FE0213 !important;
+}
+
+body {
+    background-color: #FE0213 !important;
     color: #fff !important;
     font-family: 'Poppins', sans-serif;
 }
 
-.login{
-    width: 314px;
-    height: 314px;
+.login {
+    width: 20vw;
+    height: 100vh;
     padding: 20px;
     height: min-content;
     border-radius: 5px;
     color: black;
     background-color: #D9D9D9;
-    display: flex;
-    margin-top: 19%;
-    margin-left: 75%;
 }
 
-#btn-enviar{
+#btn-enviar {
     background-color: #FF5A5A;
     color: black;
     margin-right: 20px;
 }
 
-#btn-cadastrar{
-    background-color: #25CA49 ;
+#btn-cadastrar {
+    background-color: #25CA49;
     color: black;
 }
 
-.image-container{
+.image-container {
     display: flex;
     margin-top: 10%;
 }
 
+.cardGeral {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 145px;
+}
 
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.jacques-francois shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 30px;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Italianno", cursive;
+    font-size: 50px;
+}
+  
