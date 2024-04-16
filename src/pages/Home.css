@@ -1,0 +1,13 @@
+.carouselhome {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#IDEVs {
+    width: 50%;
+}
+
+.containerhomefull{
+    margin: 30px;
+}
