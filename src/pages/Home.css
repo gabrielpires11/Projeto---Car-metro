@@ -1,7 +1,7 @@
 .carouselhome {
     display: flex;
     justify-content: center;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 #IDEVs {
@@ -11,3 +11,4 @@
 .containerhomefull{
     margin: 30px;
 }
+

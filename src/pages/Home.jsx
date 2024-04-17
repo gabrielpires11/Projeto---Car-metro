@@ -16,16 +16,13 @@ function Home() {
                             <img src={Logo} alt="logosenai" width='200px' />
                         </Navbar.Brand>
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Login</Nav.Link>
-                            <Nav.Link href="/home">Home</Nav.Link>
+                                <Nav.Link href="/">Login</Nav.Link>
+                                <Nav.Link href="/home">Home</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>
             </div>
-            <div className='Card-Carousel'>
-                <CarouselCar></CarouselCar>
-            </div>
-            <div className="containerhomefull">
+            <div className="classroom">
                 <button onClick={() => window.open(
                     'https://classroom.google.com/',
                     '_blank'
@@ -36,6 +33,10 @@ function Home() {
                     CLASSROOM
                 </button>
             </div>
+            <div className='Card-Carousel'>
+                <CarouselCar></CarouselCar>
+            </div>
+
         </>
 
 
