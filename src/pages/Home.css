@@ -1,7 +1,7 @@
 .carouselhome {
     display: flex;
     justify-content: center;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 #IDEVs {
@@ -10,5 +10,11 @@
 
 .containerhomefull{
     margin: 30px;
+}
+
+.Card-Turmas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

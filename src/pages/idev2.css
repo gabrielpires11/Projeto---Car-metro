@@ -2,13 +2,14 @@
     background-color: aqua;
 }
 
-.roboto{
+.Card-Nome{
     display: flex;
     justify-content: space-between;
 }
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 70;
     font-style: normal;
-  }
+}
+

@@ -24,8 +24,45 @@ function Home() {
             </div>
             <div className='Card-Carousel'>
                 <CarouselCar></CarouselCar>
-            </div>   
-            
+            </div>
+            <div className='Card-Turmas'>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="idev1">
+                    IDEV1
+                </button>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="idev2">
+                    IDEV2
+                </button>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="idev3">
+                    IDEV3
+                </button>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="">
+                    IELE/IMEC1
+                </button>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="">
+                    IELE/IMEC2
+                </button>
+                <button onClick={() => window.open(
+                    'http://localhost:5173/idev2',
+                    '_blank'
+                )} id="">
+                    IELE/IMEC2
+                </button>
+            </div>
 
         </>
 
