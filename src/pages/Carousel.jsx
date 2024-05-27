@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carouse
 import { useState } from 'react';
 import '../App.css';
 import IDEV2 from './img/IDEV2.jpeg';
+import IDEV1 from './img/IDEV1.jpeg';
 // import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
 
 // Componente CarouselCar para renderizar um carrossel simples na Tela Home
@@ -12,8 +13,8 @@ function CarouselCar() {
             alt: 'IDEV2',
         },
         {
-            src: 'https://img.freepik.com/vetores-gratis/modelos-de-carrossel-do-instagram_52683-51656.jpg',
-            alt: 'Imagem 2',
+            src: IDEV1,
+            alt: 'IDEV1',
         },
         {
             src: 'https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem-700x349.jpg',

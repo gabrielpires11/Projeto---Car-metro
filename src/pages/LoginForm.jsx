@@ -38,7 +38,14 @@ function LoginForm() {
                             <input type="checkbox" className="form-check-input"></input>
                         </div>
                         <button type="submit" id="btn-enviar" className="btn btn-sucess block mt-2">Enviar</button>
-                        <button type="submit" id="btn-cadastrar" className="btn btn-sucess block mt-2">Cadastrar</button>
+                        <button type="submit" id="btn-cadastrar" className="btn btn-sucess block mt-2"
+                        onClick={() => {
+                            window.open(
+                                '/home',
+                                '_self'
+                            )
+                        }}
+                        >Cadastrar</button>
                     </form>
                 </div>
 
